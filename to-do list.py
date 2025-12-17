@@ -70,19 +70,3 @@
 #         break
 #     else:
 #         print("Invalid choice. Please try again.")
-import random
-import string
-
-def generate_password(length, character_set):
-    password = "".join(random.choice(character_set) for _ in range(length))
-    return password
-
-def password_strength(password):
-    strength = 0
-    if len(password) >= 12:
-        strength += 1
-    if any(char.isdigit() for char in password):
-        strength += 1
-    if any(char.isupper() for char in password):
-        strength += 1
-    if any(char.islower() for char in password):
