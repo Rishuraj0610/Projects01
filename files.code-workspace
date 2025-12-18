@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../Desktop/C"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"FILE.C": "cpp"
+		}
+	}
+}
